@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TableViewWindowAlertController">
+            <connections>
+                <outlet property="actionView" destination="nlq-b1-KEZ" id="uBq-ff-1Gi"/>
+                <outlet property="bottomCons" destination="Ak1-Yu-cYr" id="072-k0-Crw"/>
+                <outlet property="centerXCons" destination="kSu-lb-jMM" id="CZA-6R-Khx"/>
+                <outlet property="centerYCons" destination="pQL-in-oWl" id="f9U-xy-elE"/>
+                <outlet property="containerView" destination="t9Q-jp-4Yh" id="hvQ-Nb-c4Q"/>
+                <outlet property="contentView" destination="TNN-kh-ih2" id="VZv-5y-mWL"/>
+                <outlet property="leftCons" destination="tKi-wr-WHf" id="P7U-YB-DMq"/>
+                <outlet property="rightCons" destination="zcN-KM-QUG" id="sbi-6p-Nhc"/>
+                <outlet property="titleView" destination="1RU-gs-p9J" id="smD-kf-rmp"/>
+                <outlet property="view" destination="mUE-uo-719" id="s3v-LS-S0I"/>
+                <outlet property="width240Cons" destination="Xw1-B6-PN8" id="9GN-3Z-EEd"/>
+                <outlet property="width320Cons" destination="YF7-D9-WfT" id="crS-aC-yi0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="mUE-uo-719">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwu-yo-1O8">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="dismissAction:" destination="-1" eventType="touchUpInside" id="ezZ-pb-y81"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t9Q-jp-4Yh">
+                    <rect key="frame" x="67.5" y="122.5" width="240" height="422.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1RU-gs-p9J" customClass="TableViewAlertTitleView">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="45.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TNN-kh-ih2" customClass="TableViewAlertContentView">
+                            <rect key="frame" x="0.0" y="46.5" width="240" height="320"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nlq-b1-KEZ" customClass="TableViewAlertActionView">
+                            <rect key="frame" x="0.0" y="367.5" width="240" height="55"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="nlq-b1-KEZ" firstAttribute="leading" secondItem="t9Q-jp-4Yh" secondAttribute="leading" id="6h2-JI-zcl"/>
+                        <constraint firstItem="TNN-kh-ih2" firstAttribute="top" secondItem="1RU-gs-p9J" secondAttribute="bottom" constant="0.5" id="86O-7a-DYj"/>
+                        <constraint firstItem="1RU-gs-p9J" firstAttribute="top" secondItem="t9Q-jp-4Yh" secondAttribute="top" id="H1i-DR-rt2"/>
+                        <constraint firstAttribute="trailing" secondItem="nlq-b1-KEZ" secondAttribute="trailing" id="HAG-4I-XrU"/>
+                        <constraint firstAttribute="width" constant="240" id="Xw1-B6-PN8"/>
+                        <constraint firstAttribute="width" constant="320" id="YF7-D9-WfT"/>
+                        <constraint firstItem="TNN-kh-ih2" firstAttribute="leading" secondItem="t9Q-jp-4Yh" secondAttribute="leading" id="cDy-ou-s6o"/>
+                        <constraint firstItem="1RU-gs-p9J" firstAttribute="leading" secondItem="t9Q-jp-4Yh" secondAttribute="leading" id="ghJ-oL-7Hl"/>
+                        <constraint firstItem="nlq-b1-KEZ" firstAttribute="top" secondItem="TNN-kh-ih2" secondAttribute="bottom" constant="0.5" id="k8o-qE-qTG"/>
+                        <constraint firstAttribute="bottom" secondItem="nlq-b1-KEZ" secondAttribute="bottom" id="kJz-Bb-mnT"/>
+                        <constraint firstAttribute="trailing" secondItem="1RU-gs-p9J" secondAttribute="trailing" id="tbZ-Ok-mRS"/>
+                        <constraint firstAttribute="trailing" secondItem="TNN-kh-ih2" secondAttribute="trailing" id="yw3-pL-vgB"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Xw1-B6-PN8"/>
+                            <exclude reference="YF7-D9-WfT"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Xw1-B6-PN8"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <mask key="constraints">
+                            <include reference="YF7-D9-WfT"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="lwu-yo-1O8" secondAttribute="bottom" id="5D6-wL-O1O"/>
+                <constraint firstAttribute="trailing" secondItem="lwu-yo-1O8" secondAttribute="trailing" id="5e3-ba-baK"/>
+                <constraint firstAttribute="bottom" secondItem="t9Q-jp-4Yh" secondAttribute="bottom" constant="8" id="Ak1-Yu-cYr"/>
+                <constraint firstItem="lwu-yo-1O8" firstAttribute="leading" secondItem="mUE-uo-719" secondAttribute="leading" id="GlC-E8-q7T"/>
+                <constraint firstItem="t9Q-jp-4Yh" firstAttribute="centerX" secondItem="mUE-uo-719" secondAttribute="centerX" id="kSu-lb-jMM"/>
+                <constraint firstItem="t9Q-jp-4Yh" firstAttribute="centerY" secondItem="mUE-uo-719" secondAttribute="centerY" id="pQL-in-oWl"/>
+                <constraint firstItem="t9Q-jp-4Yh" firstAttribute="leading" secondItem="mUE-uo-719" secondAttribute="leading" constant="8" id="tKi-wr-WHf"/>
+                <constraint firstItem="lwu-yo-1O8" firstAttribute="top" secondItem="mUE-uo-719" secondAttribute="top" id="yPw-a8-hQc"/>
+                <constraint firstAttribute="trailing" secondItem="t9Q-jp-4Yh" secondAttribute="trailing" constant="8" id="zcN-KM-QUG"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

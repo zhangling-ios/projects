@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZLTableViewAlertController">
+            <connections>
+                <outlet property="actionView" destination="Clj-lV-XhV" id="teh-0e-AkA"/>
+                <outlet property="bottomCons" destination="qP7-ZZ-lgd" id="8eM-NC-qgP"/>
+                <outlet property="centerXCons" destination="nCE-13-F2h" id="Wpn-sA-r1N"/>
+                <outlet property="centerYCons" destination="euN-ba-6kb" id="lOB-VM-KCq"/>
+                <outlet property="containerView" destination="9sz-Dq-qaK" id="TeR-hj-aHV"/>
+                <outlet property="contentView" destination="DJC-N9-15i" id="whQ-uK-93o"/>
+                <outlet property="contentViewTopCons" destination="TDA-h6-aen" id="4pQ-mz-Ko2"/>
+                <outlet property="leftCons" destination="FLE-4y-r0h" id="UvZ-hz-uGT"/>
+                <outlet property="rightCons" destination="1zE-Cq-Yj7" id="AkU-O2-kiF"/>
+                <outlet property="titleView" destination="f1O-fl-vqI" id="3xA-XB-WKc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="width240Cons" destination="6BO-EA-YW7" id="F8I-MT-9Js"/>
+                <outlet property="width320Cons" destination="HMX-if-860" id="QEt-fk-K81"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKu-VB-Wls">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="dismissAction:" destination="-1" eventType="touchUpInside" id="3Gu-XN-42N"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9sz-Dq-qaK">
+                    <rect key="frame" x="67.5" y="122.5" width="240" height="422.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f1O-fl-vqI" customClass="TableViewAlertTitleView">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="45.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJC-N9-15i" customClass="TableViewAlertContentView">
+                            <rect key="frame" x="0.0" y="46.5" width="240" height="320"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Clj-lV-XhV" customClass="TableViewAlertActionView">
+                            <rect key="frame" x="0.0" y="367.5" width="240" height="55"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Clj-lV-XhV" firstAttribute="leading" secondItem="9sz-Dq-qaK" secondAttribute="leading" id="1WB-yQ-bGy"/>
+                        <constraint firstAttribute="width" constant="240" id="6BO-EA-YW7"/>
+                        <constraint firstAttribute="width" constant="320" id="HMX-if-860"/>
+                        <constraint firstItem="f1O-fl-vqI" firstAttribute="leading" secondItem="9sz-Dq-qaK" secondAttribute="leading" id="MyE-cr-TsS"/>
+                        <constraint firstItem="DJC-N9-15i" firstAttribute="top" secondItem="f1O-fl-vqI" secondAttribute="bottom" constant="0.5" id="TDA-h6-aen"/>
+                        <constraint firstAttribute="trailing" secondItem="DJC-N9-15i" secondAttribute="trailing" id="WoG-ZO-8y7"/>
+                        <constraint firstItem="Clj-lV-XhV" firstAttribute="top" secondItem="DJC-N9-15i" secondAttribute="bottom" constant="0.5" id="epx-H2-U69"/>
+                        <constraint firstItem="DJC-N9-15i" firstAttribute="leading" secondItem="9sz-Dq-qaK" secondAttribute="leading" id="jhS-Lu-0JF"/>
+                        <constraint firstItem="f1O-fl-vqI" firstAttribute="top" secondItem="9sz-Dq-qaK" secondAttribute="top" id="nRL-KG-lfu"/>
+                        <constraint firstAttribute="trailing" secondItem="f1O-fl-vqI" secondAttribute="trailing" id="tez-8J-7Zd"/>
+                        <constraint firstAttribute="trailing" secondItem="Clj-lV-XhV" secondAttribute="trailing" id="tpa-X9-oP1"/>
+                        <constraint firstAttribute="bottom" secondItem="Clj-lV-XhV" secondAttribute="bottom" id="wnl-8h-3MZ"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6BO-EA-YW7"/>
+                            <exclude reference="HMX-if-860"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="6BO-EA-YW7"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <mask key="constraints">
+                            <include reference="HMX-if-860"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9sz-Dq-qaK" secondAttribute="trailing" constant="8" id="1zE-Cq-Yj7"/>
+                <constraint firstAttribute="bottom" secondItem="EKu-VB-Wls" secondAttribute="bottom" id="8la-qg-EMj"/>
+                <constraint firstItem="9sz-Dq-qaK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="FLE-4y-r0h"/>
+                <constraint firstItem="EKu-VB-Wls" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VzP-14-ZM9"/>
+                <constraint firstAttribute="trailing" secondItem="EKu-VB-Wls" secondAttribute="trailing" id="YjS-Xc-nfv"/>
+                <constraint firstItem="9sz-Dq-qaK" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="euN-ba-6kb"/>
+                <constraint firstItem="9sz-Dq-qaK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nCE-13-F2h"/>
+                <constraint firstItem="EKu-VB-Wls" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ocY-Zp-6la"/>
+                <constraint firstAttribute="bottom" secondItem="9sz-Dq-qaK" secondAttribute="bottom" constant="8" id="qP7-ZZ-lgd"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6541D8D51DEA6713001A63B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541D8D41DEA6713001A63B7 /* main.m */; };
+		6541D8D81DEA6713001A63B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541D8D71DEA6713001A63B7 /* AppDelegate.m */; };
+		6541D8DE1DEA6713001A63B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6541D8DC1DEA6713001A63B7 /* Main.storyboard */; };
+		6541D8E11DEA6713001A63B7 /* ZLTableViewAlertController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6541D8DF1DEA6713001A63B7 /* ZLTableViewAlertController.xcdatamodeld */; };
+		6541D8E31DEA6713001A63B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6541D8E21DEA6713001A63B7 /* Assets.xcassets */; };
+		6541D8E61DEA6713001A63B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6541D8E41DEA6713001A63B7 /* LaunchScreen.storyboard */; };
+		6541D8F11DEA6713001A63B7 /* ZLTableViewAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541D8F01DEA6713001A63B7 /* ZLTableViewAlertControllerTests.m */; };
+		6541D8FC1DEA6713001A63B7 /* ZLTableViewAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541D8FB1DEA6713001A63B7 /* ZLTableViewAlertControllerUITests.m */; };
+		6541D9101DEA674E001A63B7 /* TableViewAlertCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6541D90A1DEA674E001A63B7 /* TableViewAlertCell.xib */; };
+		6541D9111DEA674E001A63B7 /* TableViewAlertCenterIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6541D90B1DEA674E001A63B7 /* TableViewAlertCenterIconCell.xib */; };
+		6541D9121DEA674E001A63B7 /* TableViewWindowAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6541D90C1DEA674E001A63B7 /* TableViewWindowAlertController.xib */; };
+		6541D9131DEA674E001A63B7 /* ZLTableViewAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541D90E1DEA674E001A63B7 /* ZLTableViewAlertController.m */; };
+		6541D9141DEA674E001A63B7 /* ZLTableViewAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6541D90F1DEA674E001A63B7 /* ZLTableViewAlertController.xib */; };
+		6541D9171DEA67D4001A63B7 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541D9161DEA67D4001A63B7 /* UIView+Category.m */; };
+		6541D91B1DEA682F001A63B7 /* AppRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541D9191DEA682F001A63B7 /* AppRootViewController.m */; };
+		6541D91F1DEA6B5F001A63B7 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541D91E1DEA6B5F001A63B7 /* TestViewController.m */; };
+		6541D9221DEA7843001A63B7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6541D9211DEA7843001A63B7 /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6541D8ED1DEA6713001A63B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6541D8C81DEA6713001A63B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6541D8CF1DEA6713001A63B7;
+			remoteInfo = ZLTableViewAlertController;
+		};
+		6541D8F81DEA6713001A63B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6541D8C81DEA6713001A63B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6541D8CF1DEA6713001A63B7;
+			remoteInfo = ZLTableViewAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6541D8D01DEA6713001A63B7 /* ZLTableViewAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLTableViewAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6541D8D41DEA6713001A63B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6541D8D61DEA6713001A63B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6541D8D71DEA6713001A63B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6541D8DD1DEA6713001A63B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6541D8E01DEA6713001A63B7 /* ZLTableViewAlertController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZLTableViewAlertController.xcdatamodel; sourceTree = "<group>"; };
+		6541D8E21DEA6713001A63B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6541D8E51DEA6713001A63B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6541D8E71DEA6713001A63B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6541D8EC1DEA6713001A63B7 /* ZLTableViewAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLTableViewAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6541D8F01DEA6713001A63B7 /* ZLTableViewAlertControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTableViewAlertControllerTests.m; sourceTree = "<group>"; };
+		6541D8F21DEA6713001A63B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6541D8F71DEA6713001A63B7 /* ZLTableViewAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLTableViewAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6541D8FB1DEA6713001A63B7 /* ZLTableViewAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTableViewAlertControllerUITests.m; sourceTree = "<group>"; };
+		6541D8FD1DEA6713001A63B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6541D90A1DEA674E001A63B7 /* TableViewAlertCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewAlertCell.xib; sourceTree = "<group>"; };
+		6541D90B1DEA674E001A63B7 /* TableViewAlertCenterIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewAlertCenterIconCell.xib; sourceTree = "<group>"; };
+		6541D90C1DEA674E001A63B7 /* TableViewWindowAlertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewWindowAlertController.xib; sourceTree = "<group>"; };
+		6541D90D1DEA674E001A63B7 /* ZLTableViewAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTableViewAlertController.h; sourceTree = "<group>"; };
+		6541D90E1DEA674E001A63B7 /* ZLTableViewAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTableViewAlertController.m; sourceTree = "<group>"; };
+		6541D90F1DEA674E001A63B7 /* ZLTableViewAlertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLTableViewAlertController.xib; sourceTree = "<group>"; };
+		6541D9151DEA67D4001A63B7 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		6541D9161DEA67D4001A63B7 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		6541D9181DEA682F001A63B7 /* AppRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRootViewController.h; sourceTree = "<group>"; };
+		6541D9191DEA682F001A63B7 /* AppRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRootViewController.m; sourceTree = "<group>"; };
+		6541D91D1DEA6B5F001A63B7 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		6541D91E1DEA6B5F001A63B7 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6541D9211DEA7843001A63B7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		6541D9231DEA7AF0001A63B7 /* ZLTableViewAlertController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZLTableViewAlertController.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6541D8CD1DEA6713001A63B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6541D9221DEA7843001A63B7 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6541D8E91DEA6713001A63B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6541D8F41DEA6713001A63B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6541D8C71DEA6713001A63B7 = {
+			isa = PBXGroup;
+			children = (
+				6541D8D21DEA6713001A63B7 /* ZLTableViewAlertController */,
+				6541D8EF1DEA6713001A63B7 /* ZLTableViewAlertControllerTests */,
+				6541D8FA1DEA6713001A63B7 /* ZLTableViewAlertControllerUITests */,
+				6541D8D11DEA6713001A63B7 /* Products */,
+				6541D9201DEA7843001A63B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6541D8D11DEA6713001A63B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6541D8D01DEA6713001A63B7 /* ZLTableViewAlertController.app */,
+				6541D8EC1DEA6713001A63B7 /* ZLTableViewAlertControllerTests.xctest */,
+				6541D8F71DEA6713001A63B7 /* ZLTableViewAlertControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6541D8D21DEA6713001A63B7 /* ZLTableViewAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				6541D9231DEA7AF0001A63B7 /* ZLTableViewAlertController.entitlements */,
+				6541D8D61DEA6713001A63B7 /* AppDelegate.h */,
+				6541D8D71DEA6713001A63B7 /* AppDelegate.m */,
+				6541D9181DEA682F001A63B7 /* AppRootViewController.h */,
+				6541D9191DEA682F001A63B7 /* AppRootViewController.m */,
+				6541D91D1DEA6B5F001A63B7 /* TestViewController.h */,
+				6541D91E1DEA6B5F001A63B7 /* TestViewController.m */,
+				6541D8DC1DEA6713001A63B7 /* Main.storyboard */,
+				6541D8E21DEA6713001A63B7 /* Assets.xcassets */,
+				6541D8E41DEA6713001A63B7 /* LaunchScreen.storyboard */,
+				6541D8E71DEA6713001A63B7 /* Info.plist */,
+				6541D8DF1DEA6713001A63B7 /* ZLTableViewAlertController.xcdatamodeld */,
+				6541D9091DEA674E001A63B7 /* ZLTableViewAlertControllerLib */,
+				6541D8D31DEA6713001A63B7 /* Supporting Files */,
+			);
+			path = ZLTableViewAlertController;
+			sourceTree = "<group>";
+		};
+		6541D8D31DEA6713001A63B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6541D8D41DEA6713001A63B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6541D8EF1DEA6713001A63B7 /* ZLTableViewAlertControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6541D8F01DEA6713001A63B7 /* ZLTableViewAlertControllerTests.m */,
+				6541D8F21DEA6713001A63B7 /* Info.plist */,
+			);
+			path = ZLTableViewAlertControllerTests;
+			sourceTree = "<group>";
+		};
+		6541D8FA1DEA6713001A63B7 /* ZLTableViewAlertControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6541D8FB1DEA6713001A63B7 /* ZLTableViewAlertControllerUITests.m */,
+				6541D8FD1DEA6713001A63B7 /* Info.plist */,
+			);
+			path = ZLTableViewAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+		6541D9091DEA674E001A63B7 /* ZLTableViewAlertControllerLib */ = {
+			isa = PBXGroup;
+			children = (
+				6541D9151DEA67D4001A63B7 /* UIView+Category.h */,
+				6541D9161DEA67D4001A63B7 /* UIView+Category.m */,
+				6541D90A1DEA674E001A63B7 /* TableViewAlertCell.xib */,
+				6541D90B1DEA674E001A63B7 /* TableViewAlertCenterIconCell.xib */,
+				6541D90C1DEA674E001A63B7 /* TableViewWindowAlertController.xib */,
+				6541D90D1DEA674E001A63B7 /* ZLTableViewAlertController.h */,
+				6541D90E1DEA674E001A63B7 /* ZLTableViewAlertController.m */,
+				6541D90F1DEA674E001A63B7 /* ZLTableViewAlertController.xib */,
+			);
+			path = ZLTableViewAlertControllerLib;
+			sourceTree = "<group>";
+		};
+		6541D9201DEA7843001A63B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6541D9211DEA7843001A63B7 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6541D8CF1DEA6713001A63B7 /* ZLTableViewAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6541D9001DEA6713001A63B7 /* Build configuration list for PBXNativeTarget "ZLTableViewAlertController" */;
+			buildPhases = (
+				6541D8CC1DEA6713001A63B7 /* Sources */,
+				6541D8CD1DEA6713001A63B7 /* Frameworks */,
+				6541D8CE1DEA6713001A63B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLTableViewAlertController;
+			productName = ZLTableViewAlertController;
+			productReference = 6541D8D01DEA6713001A63B7 /* ZLTableViewAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6541D8EB1DEA6713001A63B7 /* ZLTableViewAlertControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6541D9031DEA6713001A63B7 /* Build configuration list for PBXNativeTarget "ZLTableViewAlertControllerTests" */;
+			buildPhases = (
+				6541D8E81DEA6713001A63B7 /* Sources */,
+				6541D8E91DEA6713001A63B7 /* Frameworks */,
+				6541D8EA1DEA6713001A63B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6541D8EE1DEA6713001A63B7 /* PBXTargetDependency */,
+			);
+			name = ZLTableViewAlertControllerTests;
+			productName = ZLTableViewAlertControllerTests;
+			productReference = 6541D8EC1DEA6713001A63B7 /* ZLTableViewAlertControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6541D8F61DEA6713001A63B7 /* ZLTableViewAlertControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6541D9061DEA6713001A63B7 /* Build configuration list for PBXNativeTarget "ZLTableViewAlertControllerUITests" */;
+			buildPhases = (
+				6541D8F31DEA6713001A63B7 /* Sources */,
+				6541D8F41DEA6713001A63B7 /* Frameworks */,
+				6541D8F51DEA6713001A63B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6541D8F91DEA6713001A63B7 /* PBXTargetDependency */,
+			);
+			name = ZLTableViewAlertControllerUITests;
+			productName = ZLTableViewAlertControllerUITests;
+			productReference = 6541D8F71DEA6713001A63B7 /* ZLTableViewAlertControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6541D8C81DEA6713001A63B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Rippleinfo;
+				TargetAttributes = {
+					6541D8CF1DEA6713001A63B7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D4XXEH3C36;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					6541D8EB1DEA6713001A63B7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9T7NQJ9RLK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6541D8CF1DEA6713001A63B7;
+					};
+					6541D8F61DEA6713001A63B7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9T7NQJ9RLK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6541D8CF1DEA6713001A63B7;
+					};
+				};
+			};
+			buildConfigurationList = 6541D8CB1DEA6713001A63B7 /* Build configuration list for PBXProject "ZLTableViewAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6541D8C71DEA6713001A63B7;
+			productRefGroup = 6541D8D11DEA6713001A63B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6541D8CF1DEA6713001A63B7 /* ZLTableViewAlertController */,
+				6541D8EB1DEA6713001A63B7 /* ZLTableViewAlertControllerTests */,
+				6541D8F61DEA6713001A63B7 /* ZLTableViewAlertControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6541D8CE1DEA6713001A63B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6541D9121DEA674E001A63B7 /* TableViewWindowAlertController.xib in Resources */,
+				6541D9111DEA674E001A63B7 /* TableViewAlertCenterIconCell.xib in Resources */,
+				6541D8E61DEA6713001A63B7 /* LaunchScreen.storyboard in Resources */,
+				6541D8E31DEA6713001A63B7 /* Assets.xcassets in Resources */,
+				6541D9101DEA674E001A63B7 /* TableViewAlertCell.xib in Resources */,
+				6541D8DE1DEA6713001A63B7 /* Main.storyboard in Resources */,
+				6541D9141DEA674E001A63B7 /* ZLTableViewAlertController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6541D8EA1DEA6713001A63B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6541D8F51DEA6713001A63B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6541D8CC1DEA6713001A63B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6541D8E11DEA6713001A63B7 /* ZLTableViewAlertController.xcdatamodeld in Sources */,
+				6541D8D81DEA6713001A63B7 /* AppDelegate.m in Sources */,
+				6541D91F1DEA6B5F001A63B7 /* TestViewController.m in Sources */,
+				6541D9131DEA674E001A63B7 /* ZLTableViewAlertController.m in Sources */,
+				6541D9171DEA67D4001A63B7 /* UIView+Category.m in Sources */,
+				6541D8D51DEA6713001A63B7 /* main.m in Sources */,
+				6541D91B1DEA682F001A63B7 /* AppRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6541D8E81DEA6713001A63B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6541D8F11DEA6713001A63B7 /* ZLTableViewAlertControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6541D8F31DEA6713001A63B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6541D8FC1DEA6713001A63B7 /* ZLTableViewAlertControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6541D8EE1DEA6713001A63B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6541D8CF1DEA6713001A63B7 /* ZLTableViewAlertController */;
+			targetProxy = 6541D8ED1DEA6713001A63B7 /* PBXContainerItemProxy */;
+		};
+		6541D8F91DEA6713001A63B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6541D8CF1DEA6713001A63B7 /* ZLTableViewAlertController */;
+			targetProxy = 6541D8F81DEA6713001A63B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6541D8DC1DEA6713001A63B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6541D8DD1DEA6713001A63B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6541D8E41DEA6713001A63B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6541D8E51DEA6713001A63B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6541D8FE1DEA6713001A63B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6541D8FF1DEA6713001A63B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6541D9011DEA6713001A63B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZLTableViewAlertController/ZLTableViewAlertController.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4XXEH3C36;
+				INFOPLIST_FILE = ZLTableViewAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangling.alert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		6541D9021DEA6713001A63B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZLTableViewAlertController/ZLTableViewAlertController.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4XXEH3C36;
+				INFOPLIST_FILE = ZLTableViewAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangling.alert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		6541D9041DEA6713001A63B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9T7NQJ9RLK;
+				INFOPLIST_FILE = ZLTableViewAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangling.ZLTableViewAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLTableViewAlertController.app/ZLTableViewAlertController";
+			};
+			name = Debug;
+		};
+		6541D9051DEA6713001A63B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9T7NQJ9RLK;
+				INFOPLIST_FILE = ZLTableViewAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangling.ZLTableViewAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLTableViewAlertController.app/ZLTableViewAlertController";
+			};
+			name = Release;
+		};
+		6541D9071DEA6713001A63B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9T7NQJ9RLK;
+				INFOPLIST_FILE = ZLTableViewAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangling.ZLTableViewAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLTableViewAlertController;
+			};
+			name = Debug;
+		};
+		6541D9081DEA6713001A63B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9T7NQJ9RLK;
+				INFOPLIST_FILE = ZLTableViewAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangling.ZLTableViewAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLTableViewAlertController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6541D8CB1DEA6713001A63B7 /* Build configuration list for PBXProject "ZLTableViewAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6541D8FE1DEA6713001A63B7 /* Debug */,
+				6541D8FF1DEA6713001A63B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6541D9001DEA6713001A63B7 /* Build configuration list for PBXNativeTarget "ZLTableViewAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6541D9011DEA6713001A63B7 /* Debug */,
+				6541D9021DEA6713001A63B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6541D9031DEA6713001A63B7 /* Build configuration list for PBXNativeTarget "ZLTableViewAlertControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6541D9041DEA6713001A63B7 /* Debug */,
+				6541D9051DEA6713001A63B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6541D9061DEA6713001A63B7 /* Build configuration list for PBXNativeTarget "ZLTableViewAlertControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6541D9071DEA6713001A63B7 /* Debug */,
+				6541D9081DEA6713001A63B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6541D8DF1DEA6713001A63B7 /* ZLTableViewAlertController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6541D8E01DEA6713001A63B7 /* ZLTableViewAlertController.xcdatamodel */,
+			);
+			currentVersion = 6541D8E01DEA6713001A63B7 /* ZLTableViewAlertController.xcdatamodel */;
+			path = ZLTableViewAlertController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6541D8C81DEA6713001A63B7 /* Project object */;
+}
